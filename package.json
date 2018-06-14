@@ -1,0 +1,57 @@
+{
+  "name": "restaurant_detail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base . --hot",
+    "build": "browserify . | uglifyjs -cm > js/bundle.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChiragMittal/Restaurant_Detail.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChiragMittal/Restaurant_Detail/issues"
+  },
+  "homepage": "https://github.com/ChiragMittal/Restaurant_Detail#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "events": "^2.0.0",
+    "flux": "^3.1.3",
+    "keymirror": "^0.1.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-button": "^1.2.1",
+    "react-dom": "^16.2.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-react-html-attrs": "^2.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "browserify": "~13.1.0",
+    "envify": "~3.4.1",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "reactify": "^1.1",
+    "watchify": "~3.7.0",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  },
+  "browserify": {
+    "transform": [
+      "reactify",
+      "envify"
+    ]
+  }
+}
