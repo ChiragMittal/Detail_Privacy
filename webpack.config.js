@@ -19,12 +19,14 @@ module.exports = {
     ]
   },
 
-  // devServer: {
+  devServer: {
   //       historyApiFallback: true,
   //       hot: true,
   //       contentBase: path.resolve(__dirname, 'dist'),
-  //       publicPath: '/'
-  //   },
+  //       publicPath: '/',
+           host : "0.0.0.0",
+           port: 8080,
+    },
     
   output: {
     path: __dirname,
