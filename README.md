@@ -1,8 +1,8 @@
-# Restaurant_Detail
+# Detail Privacy
 
 Steps of Instruction
 1. git clone url_of_my_project
-2. cd Restaurant_Detail
+2. cd Detail_Privacy
 3. npm install
 4. npm run dev
 
