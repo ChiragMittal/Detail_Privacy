@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/ChiragMittal/Restaurant_Detail#readme",
   "dependencies": {
-    "crypto-js": "^3.1.9-1",
+    "crypto-js": "^4.2.0",
     "events": "^2.1.0",
     "flux": "^3.1.3",
     "keymirror": "^0.1.1",
